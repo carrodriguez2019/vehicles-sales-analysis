@@ -1,13 +1,14 @@
 # ======================
 # ARCHIVOS SENSIBLES/DATOS
 # ======================
-vehicles_us.csv           # ← Dataset original (no subir)
-vehicles_us_clean.csv     # ← Dataset procesado (no subir)
+vehicles_us.csv        
+
 
 # ======================
 # ENTORNOS VIRTUALES
 # ======================
 vehicles_env/
+pyvenv.cfg
 .env
 .venv
 env/
