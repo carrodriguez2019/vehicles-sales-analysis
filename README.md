@@ -64,7 +64,7 @@ Este proyecto proporciona un dashboard interactivo para analizar datos de anunci
    streamlit run app.py
 
 ## Estrctura del proyecto
-<img width="476" height="309" alt="Captura de pantalla 2025-09-30 190857" src="https://github.com/user-attachments/assets/5567d00f-1fc7-4326-bf53-d41b8b93eab0" />
+<img width="455" height="480" alt="image" src="https://github.com/user-attachments/assets/de7f05e6-019b-444c-852d-6f6a5daae92f" />
 
 ## Uso de la Aplicación
 
