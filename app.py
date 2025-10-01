@@ -242,7 +242,7 @@ if show_histogram and len(filtered_df) > 0:
     
     if precios_unicos == 1:
         # Todos los precios son iguales
-        st.info(f"💰 **Todos los vehículos tienen el mismo precio: ${precio_min:,.0f}**")
+        st.info(f" **Todos los vehículos tienen el mismo precio: ${precio_min:,.0f}**")
         
         # Mostrar un gráfico de barras simple en lugar de histograma
         fig_bar = px.bar(
@@ -264,7 +264,7 @@ if show_histogram and len(filtered_df) > 0:
     
     elif precios_unicos < 10:
         # Pocos precios diferentes (menos de 10)
-        st.info(f"🎯 **Solo {precios_unicos} precios diferentes en {len(filtered_df)} vehículos**")
+        st.info(f" **Solo {precios_unicos} precios diferentes en {len(filtered_df)} vehículos**")
         
         # Crear gráfico de barras con conteo por precio
         conteo_precios = filtered_df['price'].value_counts().sort_index()
@@ -288,7 +288,7 @@ if show_histogram and len(filtered_df) > 0:
             st.write(f"- ${precio:,.0f}: {cantidad} vehículos")
     
     else:
-        # CASO: Suficiente variación para histograma normal
+        # Suficiente variación para histograma normal
         fig_hist = px.histogram(
             filtered_df,
             x='price',       
