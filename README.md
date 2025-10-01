@@ -16,7 +16,7 @@ Este proyecto proporciona un dashboard interactivo para analizar datos de anunci
 - **Filtros Inteligentes**: Los tipos de vehículo se actualizan según la marca seleccionada
 - **Métricas en Tiempo Real**: KPIs actualizados según los filtros aplicados
 
-### 📈 Visualizaciones Interactivas
+### Visualizaciones Interactivas
 - **Histograma de Precios**: Distribución de precios de vehículos. Si tiene menos de 10 precios relacionados, muestra un diagrama de barras. 
 - **Gráfico de Dispersión**: Relación entre precio y año del modelo
 - **Boxplot por Tipo**: Distribución de precios por categoría de vehículo
@@ -146,7 +146,7 @@ Si usas este código como referencia, ¡menciona el proyecto original!
 ## Autor
 Carolina Rodríguez Guerra
 GitHub: https://github.com/carrodriguez2019
-LinkedIn: 
+LinkedIn: https://www.linkedin.com/in/carolina-rodriguez-data/
 
 ## 🙏 Agradecimientos
 Dataset proporcionado por Tripleten
