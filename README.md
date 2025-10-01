@@ -28,7 +28,6 @@ Este proyecto proporciona un dashboard interactivo para analizar datos de anunci
 - **Búsqueda en Tiempo Real**: La tabla en la parte superior izquierda permite buscar en los registros cualquier dato.
 
 ## Tecnologías Utilizadas
-
 - **Frontend**: Streamlit
 - **Visualización**: Plotly Express
 - **Procesamiento de Datos**: Pandas, NumPy
@@ -43,34 +42,25 @@ Este proyecto proporciona un dashboard interactivo para analizar datos de anunci
 
 ### Pasos de Instalación
 
-#### 1. **Clonar el repositorio**
-   ```bash
+#### 1. **Clonar el repositorio**   
    git clone https://github.com/carrodriguez2019/vehicles-sales-analysis.git
-   cd vehicles-sales-analysis
+   cd vehicles-sales-analysis   
 
-#### 2. **Crear entorno virtual**
-   ```bash
-  python -m venv vehicles_env
-
-#### Windows
-vehicles_env\Scripts\activate
-
-#### Mac/Linux
-source vehicles_env/bin/activate
+#### 2. **Crear entorno virtual**   
+   python -m venv vehicles_env   
+   #### Windows: vehicles_env\Scripts\activate   
+   #### Mac/Linux: source vehicles_env/bin/activate
 
 #### 3. **Instalar dependencias**
-   ```bash
   pip install -r requirements.txt
 
-#### 4. **Descargar Dataset**
-   ```bash
+#### 4. **Descargar Dataset**   
  ##### Opción automática (PowerShell)
   Invoke-WebRequest -Uri " https://practicum-content.s3.us-west-1.amazonaws.com/new-markets/Data_sprint_4_Refactored/vehicles_us.csv" -OutFile "vehicles_us.csv"
   
  ##### Opción manual: Descargar vehicles_us.csv y colocarlo en la raíz del proyecto
 
-#### 5. **Ejecutar aplicación**
-   ```bash
+#### 5. **Ejecutar aplicación**   
    streamlit run app.py
 
 ## Estrctura del proyecto
@@ -117,11 +107,9 @@ El notebook notebooks/EDA.ipynb contiene:
 - Identificación de patrones y tendencias
 
 ## 🤝 Contribuciones
-
 ¡Las contribuciones son bienvenidas y apreciadas! Si quieres mejorar este proyecto:
 
 ### Cómo contribuir:
-
 1. **Haz un Fork** del proyecto
 2. **Crea una Rama** para tu feature (`git checkout -b feature/AmazingFeature`)
 3. **Commit** tus cambios (`git commit -m 'feat: Add some AmazingFeature'`)
@@ -129,21 +117,18 @@ El notebook notebooks/EDA.ipynb contiene:
 5. **Abre un Pull Request**
 
 ### Guía de contribución:
-
 - **Reportar bugs**: Abre un issue describiendo el problema
 - **Sugerir features**: Comparte tus ideas para mejorar el proyecto
 - **Mejorar documentación**: Ayuda a hacer el README más claro
 - **Agregar tests**: Contribuye con pruebas para el código
 
 ### Convenciones de código:
-
 - Sigue el estilo de código existente
 - Usa mensajes de commit descriptivos
 - Asegúrate de que el código pase las validaciones
 - Actualiza la documentación si es necesario
 
 ## Licencia
-
 Este proyecto está bajo la **Licencia MIT** - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ### Contexto Educativo
