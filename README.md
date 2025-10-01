@@ -2,16 +2,19 @@
 
 [![Render](https://img.shields.io/badge/Render-Live-46B3B3?style=for-the-badge)](https://vehicles-sales-analysis-4.onrender.com/)
 
-## Descripción
-Una aplicación web interactiva para el análisis exploratorio de datos de ventas de vehículos, construida con Streamlit y Plotly.
+## Descripción  del proyecto
+Una aplicación web interactiva para el análisis exploratorio de datos de ventas de vehículos, construida con Streamlit y Plotly. 
+
+Este proyecto proporciona un dashboard interactivo para analizar datos de anuncios de venta de vehículos. Permite explorar tendencias de precios, distribuciones por tipo de vehículo, marcas y más, mediante visualizaciones interactivas.
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-## Descripción  del proyecto
-Este proyecto proporciona un dashboard interactivo para analizar datos de anuncios de venta de vehículos. Permite explorar tendencias de precios, distribuciones por tipo de vehículo, marcas y más, mediante visualizaciones interactivas.
+## Demo en Vivo
+Puedes ver la aplicación funcionando aquí:
+**[👉 Ver Demo](https://vehicles-sales-analysis-4.onrender.com/)**
 
 ## Características principales
 
