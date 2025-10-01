@@ -35,7 +35,7 @@ Este proyecto proporciona un dashboard interactivo para analizar datos de anunci
 - **Análisis**: Jupyter Notebooks
 - **Control de Versiones**: Git & GitHub
 
-## 🚀 Instalación y Uso
+## Instalación y Uso
 
 ### Prerrequisitos
 - Python 3.12.10
@@ -43,38 +43,37 @@ Este proyecto proporciona un dashboard interactivo para analizar datos de anunci
 
 ### Pasos de Instalación
 
-1. **Clonar el repositorio**
+#### 1. **Clonar el repositorio**
    ```bash
    git clone https://github.com/carrodriguez2019/vehicles-sales-analysis.git
    cd vehicles-sales-analysis
 
-2. **Crear entorno virtual**
+#### 2. **Crear entorno virtual**
    ```bash
   python -m venv vehicles_env
 
-# Windows
+#### Windows
 vehicles_env\Scripts\activate
 
-# Mac/Linux
+#### Mac/Linux
 source vehicles_env/bin/activate
 
-3. **Instalar dependencias**
+#### 3. **Instalar dependencias**
    ```bash
   pip install -r requirements.txt
 
-4. **Descargar Dataset**
+#### 4. **Descargar Dataset**
    ```bash
-  
-  # Opción automática (PowerShell)
+ ##### Opción automática (PowerShell)
   Invoke-WebRequest -Uri " https://practicum-content.s3.us-west-1.amazonaws.com/new-markets/Data_sprint_4_Refactored/vehicles_us.csv" -OutFile "vehicles_us.csv"
   
-  # Opción manual: Descargar vehicles_us.csv y colocarlo en la raíz del proyecto
+ ##### Opción manual: Descargar vehicles_us.csv y colocarlo en la raíz del proyecto
 
-5. **Ejecutar aplicación**
+#### 5. **Ejecutar aplicación**
    ```bash
    streamlit run app.py
 
-## Estrctura del proyecto
+# Estrctura del proyecto
 
 <img width="454" height="354" alt="Captura de pantalla 2025-09-30 185612" src="https://github.com/user-attachments/assets/aa535852-c63c-47b9-b6f1-b5d33a798c0d" />
 
