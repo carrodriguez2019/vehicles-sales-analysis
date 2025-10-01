@@ -64,7 +64,7 @@ def load_gif_as_base64(gif_path):
     return base64.b64encode(data).decode()
 
 try:
-    gif_base64 = load_gif_as_base64("iconos/carro-nuevo.gif")
+    gif_base64 = load_gif_as_base64("assets/iconos/carro-nuevo.gif")
     # Usar columnas para alinear el GIF con el título
     col1, col2 = st.columns([0.1, 0.9])
     # Mostrar el GIF
